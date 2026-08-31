@@ -1,0 +1,15 @@
+# System files Mac та Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Code editor cache and temporary files (VS Code)
+.vscode/
+.history/
+*.log
+
+# Sass/SCSS compiler cache
+.sass-cache/
+*.css.map
+*.scss.map
+.shelf/
