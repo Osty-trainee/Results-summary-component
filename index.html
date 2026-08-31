@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+<body>
+  <main class="container">
+    <article class="card">
+      
+      <section class="card__result result-panel">
+        <h1 class="result-panel__title">Your Result</h1>
+        <div class="result-panel__score-circle">
+          <span class="result-panel__score-number">76</span>
+          <span class="result-panel__score-total">of 100</span>
+        </div>
+        <div class="result-panel__feedback">
+          <p class="result-panel__grade">Great</p>
+          <p class="result-panel__text">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </section>
+
+      <section class="card__summary summary-panel">
+        <h2 class="summary-panel__title">Summary</h2>
+        <div class="summary-panel__list">
+
+          <div class="summary-item summary-item--reaction">
+            <div class="summary-item__title-box">
+              <img class="summary-item__icon" src="./assets/images/icon-reaction.svg" alt="icon reaction" aria-hidden="true">
+              <span class="summary-item__name">Reaction</span>
+            </div>
+            <p class="summary-item__score">
+              <span class="summary-item__score-num">80</span> / 100
+            </p>
+          </div>
+
+          <div class="summary-item summary-item--memory">
+            <div class="summary-item__title-box">
+              <img class="summary-item__icon" src="./assets/images/icon-memory.svg" alt="icon memory" aria-hidden="true">
+              <span class="summary-item__name">Memory</span>
+            </div>
+            <p class="summary-item__score">
+              <span class="summary-item__score-num">92</span> / 100
+            </p>
+          </div>
+
+          <div class="summary-item summary-item--verbal">
+            <div class="summary-item__title-box">
+              <img class="summary-item__icon" src="./assets/images/icon-verbal.svg" alt="icon verbal" aria-hidden="true">
+              <span class="summary-item__name">Verbal</span>
+            </div>
+            <p class="summary-item__score">
+              <span class="summary-item__score-num">61</span> / 100
+            </p>
+          </div>
+
+          <div class="summary-item summary-item--visual">
+            <div class="summary-item__title-box">
+              <img class="summary-item__icon" src="./assets/images/icon-visual.svg" alt="icon visual" aria-hidden="true">
+              <span class="summary-item__name">Visual</span>
+            </div>
+            <p class="summary-item__score">
+              <span class="summary-item__score-num">72</span> / 100
+            </p>
+          </div>
+
+        </div>
+
+        <button class="summary-panel__btn">Continue</button>
+      </section>
+
+    </article>
+  </main>
+
+</body>
+</html>
