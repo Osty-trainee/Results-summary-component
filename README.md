@@ -26,8 +26,8 @@ Users should be able to:
 - Experience a fully fluid responsive layout transition that shifts gracefully from a full-width single-column mobile viewport into an asymmetric two-column desktop card grid.
 
 ### Screenshots
-![Final responsive NFT preview card component solution](screenshot.png)  
-*Fig 1. Final look of my responsive NFT preview card component using production-ready SCSS compilation and accessibility-focused focus-visible states.*
+![Final responsive Results summary component solution](screenshot.png)  
+*Fig 1. Final look of my responsive Results summary component solution using production-ready SCSS compilation and accessibility-focused focus-visible states.*
 
 ### Links
 
